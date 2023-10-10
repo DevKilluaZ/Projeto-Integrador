@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+  height: 40rem;
+  background-image: url(../img/grecia.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+.navbar {
+  display: flex;
+  background-color: aliceblue;
+  padding-bottom: 10px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+.links {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.links a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #888;
+  border-radius: 5px;
+  width: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+}
